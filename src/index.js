@@ -1,11 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './Components/App'
 
-const title = 'Welcome u fucking lazy asses that u just wanna chat the whole fucking time!';
-
-ReactDOM.render(
-  <div>{title}</div>,
-  document.getElementById('app')
-);
+ReactDOM.render(<App />, document.getElementById('root'));
 
 module.hot.accept();
